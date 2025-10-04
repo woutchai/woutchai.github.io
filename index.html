@@ -3,37 +3,73 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>MochaChai</title>
-<link rel="stylesheet" href="assets/styles.css" />
+<title>Mocha Chai — Spiced, Silky, Satisfying</title>
+<meta name="description" content="Mocha Chai: rich cocoa meets spiced black tea. Learn origins, brewing, and cafe-style recipes." />
+<link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+<link rel="stylesheet" href="/assets/styles.css" />
+<meta property="og:title" content="Mocha Chai — Spiced, Silky, Satisfying" />
+<meta property="og:description" content="Rich cocoa + masala chai. Explore origins, menu ideas, and how to brew at home." />
+<meta property="og:type" content="website" />
 </head>
-
 <body>
-<main class="container">
-<h1>:happi:</h1>
-<p>I'm alive.</p>
-
-
+<header class="site-header">
+<div class="wrap">
+<a class="brand" href="/">Mocha Chai</a>
 <nav class="nav">
-<a href="./index.html">Home</a>
-<a href="./about.html">About</a>
-<a href="./nope">404 page</a>
+<a href="/about/">About</a>
+<a href="/brew/">Brew</a>
+<a href="/menu/">Menu</a>
+<a href="/contact/">Contact</a>
 </nav>
+</div>
+</header>
 
 
-<section class="card">
-<h2>JS check</h2>
-<p id="js-status">Loading JS…</p>
-<button id="btn">Click me</button>
+<main class="container">
+<section class="hero">
+<div class="hero-text">
+<h1>Where cocoa hugs chai.</h1>
+<p>Mocha Chai blends dark chocolate with spiced black tea for a cup that’s smooth, aromatic, and quietly energizing.</p>
+<p><a class="btn" href="/brew/">How to Brew →</a></p>
+</div>
+<figure class="hero-media">
+<img alt="a warm cup of spiced chocolate chai"
+src="https://images.unsplash.com/photo-1517705008128-361805f42e86?q=80&w=1600&auto=format&fit=crop" />
+</figure>
 </section>
 
 
-<section class="card">
-<h2>Asset check</h2>
-<p>Working I guess</p>
+<section class="grid">
+<article class="card">
+<h2>What is Mocha Chai?</h2>
+<p>A cozy hybrid: classic masala chai (black tea, milk, and warming spices) enriched with cocoa. Think <em>spiced hot chocolate</em> with structure and lift from tea tannins.</p>
+<a href="/about/" class="text-link">Learn more</a>
+</article>
+
+
+<article class="card">
+<h2>Home Brew Guide</h2>
+<p>Stovetop or French press, dairy or oat — dial sweetness, spice, and cocoa to taste. Start with our 10‑minute method.</p>
+<a href="/brew/" class="text-link">Brew at home</a>
+</article>
+
+
+<article class="card">
+<h2>Café‑Style Ideas</h2>
+<p>Mocha Chai Latte, Cardamom Mocha, Iced Cocoa Chai, or a simple dusting of cacao and cinnamon — explore a small menu.</p>
+<a href="/menu/" class="text-link">See menu</a>
+</article>
 </section>
 </main>
 
 
-<script src="assets/script.js"></script>
+<footer class="site-footer">
+<div class="wrap">
+<small>© <span id="year"></span> Mocha Chai. A simple informational site about the drink.</small>
+</div>
+</footer>
+
+
+<script src="/assets/script.js" defer></script>
 </body>
 </html>
